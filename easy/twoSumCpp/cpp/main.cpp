@@ -19,7 +19,7 @@ public:
             {
                 return {numMap[complement], i};
             }
-            numMap[currentNum] = i;
+            numMap[nums[i]] = i;
         }
         return {};
     }
